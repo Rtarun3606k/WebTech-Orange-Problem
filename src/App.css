@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f122657;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff9800;
+    border-radius: 2px;
+    /* border: 3px solid #f1f1f1; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #e68900;
+}
+
+
+.custome-amination{
+    animation: custome-amination .8s ease-in-out ;
+}
+
+@keyframes custome-amination {
+    0% {
+        opacity: 0;
+    }
+ 
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .custome-amination{
+        animation: custome-amination .8s ease-in-out ;
+    }
+    .media{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
